@@ -531,11 +531,7 @@ header>nav>a:hover{
     padding: 10px 10px;
     transition: 0.3s ease-in-out;
 }
-.stat:hover{
-    background-color: white;
-    border-radius: 20px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.043);
-}
+
 
 .stat>.inner-stat{
     background-color: #03ecb6;
