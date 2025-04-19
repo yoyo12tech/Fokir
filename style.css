@@ -1691,9 +1691,9 @@ xs	< 576p
     }
     .feedback>p{
         color: #5b5b5b;
-        font-size: 11px;
+        font-size: 15px;
         margin-bottom: 21px;
-        line-height: 18px;
+        line-height: 20px;
     }
     .icon-cont-test{
         font-size:21px ;
@@ -2046,9 +2046,9 @@ xs	< 576p
     }
     .feedback>p{
         color: #5b5b5b;
-        font-size: 8px;
+        font-size: 12px;
         margin-bottom: 18px;
-        line-height: 14px;
+        line-height: 18px;
     }
     .icon-cont-test{
         font-size:21px ;
@@ -2079,30 +2079,30 @@ xs	< 576p
         margin: 15px 0px;
         color: #555555;
         font-size: 20px;
-        font-size: 5vw;
+        font-size: 3vw;
     }
     .blog-card>.blog-inner-card>.details>h3{
         font-family: "Source Sans Pro", sans-serif;
         color:#333333;
         font-weight:600;
         font-size: 30px;
-        font-size: 7vw;
+        font-size: 4.8vw;
         margin-bottom: 15px;
     }
     .blog-card>.blog-inner-card>.details>.info{
         width: 99%;
         color: #555555;
         font-size: 24px;
-        font-size: 6.5vw;
+        font-size: 3.5vw;
         line-height: 30px;
-        line-height: 8vw;
+        line-height: 4vw;
         margin-bottom: 20px;
     }
     .blog-card>.blog-inner-card>.details>a{
         color:#333333;
         text-decoration: none;
         font-size: 21px;
-        font-size: 6vw;
+        font-size: 3vw;
         font-weight: 400;
     
     }
@@ -2166,8 +2166,5 @@ xs	< 576p
         font-size: 4vw;
     }
 
-
-    
-    
 
 }
