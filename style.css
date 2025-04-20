@@ -676,13 +676,13 @@ icon-cont-test>#second:active{
 .blog-card>.blog-inner-card>.details>.date{
     margin: 15px 0px;
     color: #555555;
-    font-size: 18px;
+    font-size: 15px;
 }
 .blog-card>.blog-inner-card>.details>h3{
     font-family: "Source Sans Pro", sans-serif;
     color:#333333;
     font-weight:600;
-    font-size: 27px;
+    font-size: 24px;
     margin-bottom: 15px;
     transition: 0.3s ease-in-out;
 }
@@ -692,14 +692,14 @@ icon-cont-test>#second:active{
 .blog-card>.blog-inner-card>.details>.info{
     width: 95%;
     color: #555555;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 32px;
     margin-bottom: 20px;
 }
 .blog-card>.blog-inner-card>.details>a{
     color:#333333;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 400;
     transition: 0.5s ease-in-out;
 }
