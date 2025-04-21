@@ -127,8 +127,7 @@ header>nav>a:hover{
     font-size: 27px;
     line-height: 33px;
     font-weight: 300;
-    animation: scaleFade 3s ease-in-out infinite;
-
+    animation: scaleFade 3s ease-in-out alternate infinite;
 }
 /*animation: animation-name duration timing-function delay iteration-count direction fill-mode;*/
 /*animation: slideUp 1s ease-in-out 0.3s infinite alternate forwards;*/
