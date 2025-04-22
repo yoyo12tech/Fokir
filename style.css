@@ -1892,28 +1892,28 @@ xs	< 576p
         display:inline;
     }
     .hero-section>h3{
-        font-size: 4.5vw;
+        font-size: 5vw;
         line-height: 6vw;
         
     }
     .hero-section>h1{
-        font-size: 9vw;
+        font-size: 10vw;
         line-height: 12vw;
     }
     
     .hero-section>h4{
-        font-size: 4.5vw;
+        font-size: 5vw;
         line-height: 6vw;
         white-space: nowrap;
     }
     .typewriter{
-        font-size: 4.5vw;
+        font-size: 5vw;
         line-height: 6vw;
     }
     @keyframes scaleFade {
         0% {
           opacity: 1;
-          width: 20.5vw;
+          width: 23vw;
           color: #ff3059; 
           border-color: #ff3059;
 
