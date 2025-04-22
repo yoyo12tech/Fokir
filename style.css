@@ -86,9 +86,8 @@ header>nav>a:hover{
     font-family: "Source Sans Pro", sans-serif;
     width: 60%;
     margin: auto;
-    margin-top: 200px; /*GITHUB 200PX AS WHY?*/
+    margin-top: 200px; /*GITHUB 200PX AS WHY? 3ashan enta 3amal zoom ya ghabi!!!*/
     text-align: center;
-
 }
 .hero-section>h3{
     color: #ffffff;
@@ -112,36 +111,39 @@ header>nav>a:hover{
     line-height: 33px;
     font-weight: 300;
     transition: 3s;
-    transition: 3s;
-}
 
-.hero-section > h4 :not(.typewriter) {
-    color: #ffffff;
-    font-size: 27px;
-    line-height: 33px;
-    font-weight: 300;
+
 }
 .typewriter{
     display: inline-block; /*cuz transform wont affect inline elements so make it inline-block*/
     color: #ffffff;
     font-size: 27px;
+    overflow: hidden;
     line-height: 33px;
     font-weight: 300;
+    width: 120px;
+    white-space: nowrap;
+    vertical-align: bottom;
+    border-right: 1px solid rgb(255, 255, 255);
     animation: scaleFade 3s ease-in-out alternate infinite;
+
 }
 /*animation: animation-name duration timing-function delay iteration-count direction fill-mode;*/
 /*animation: slideUp 1s ease-in-out 0.3s infinite alternate forwards;*/
  @keyframes scaleFade {
     0% {
       opacity: 1;
+      width: 120px;
+      color: #ff3059; 
     }
     50% {
       opacity: 1;
-      color: #ff3059;
     }
     100% {
       opacity: 1;
-      color: #ff6282;
+      color: #ff3059;;
+      width: 0px;
+
     }
   }
   
@@ -675,7 +677,7 @@ icon-cont-test>#second:active{
 .blog-card>.blog-inner-card>.details>.date{
     margin: 15px 0px;
     color: #555555;
-    font-size: 15px;
+    font-size: 16px;
 }
 .blog-card>.blog-inner-card>.details>h3{
     font-family: "Source Sans Pro", sans-serif;
@@ -1499,9 +1501,9 @@ xs	< 576p
         padding-top: 5px ;
     }
     header>nav>a{
-        padding: 1.2px 2px;
+        padding: 1.2px 1.8px;
         padding-bottom: 5px;
-        font-size: 14px;
+        font-size: 12px;
     }
     .profile-pic{
         background-color: #5c03ec;
@@ -1902,15 +1904,31 @@ xs	< 576p
     }
     
     .hero-section>h4{
-        font-size: 7vw;
-        line-height: 9vw;
+        font-size: 4.8vw;
+        line-height: 5vw;
+        white-space: nowrap;
   
     }
     .typewriter{
-        font-size: 7vw;
-        line-height: 9vw;
-    
+        font-size: 4.8vw;
+        line-height: 5vw;
     }
+    @keyframes scaleFade {
+        0% {
+          opacity: 1;
+          width: 21.5vw;
+          color: #ff3059; 
+        }
+        50% {
+          opacity: 1;
+        }
+        100% {
+          opacity: 1;
+          color: #ff3059;;
+          width: 0px;
+    
+        }
+      }
     .profile-pic{
         background-color: #03ec3d;
         background-color: transparent;
