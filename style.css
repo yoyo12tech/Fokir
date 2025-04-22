@@ -135,13 +135,14 @@ header>nav>a:hover{
       opacity: 1;
       width: 120px;
       color: #ff3059; 
+      border-color: #ff3059;
     }
     50% {
       opacity: 1;
     }
     100% {
       opacity: 1;
-      color: #ff3059;;
+      color: #ffffff;;
       width: 0px;
 
     }
@@ -1918,13 +1919,15 @@ xs	< 576p
           opacity: 1;
           width: 21.5vw;
           color: #ff3059; 
+          border-color: #ff3059;
+
         }
         50% {
           opacity: 1;
         }
         100% {
           opacity: 1;
-          color: #ff3059;;
+          color: #ffffff;;
           width: 0px;
     
         }
