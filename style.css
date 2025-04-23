@@ -130,9 +130,10 @@ header>nav>a:hover{
  @keyframes scaleFade {
     0% {
       opacity: 1;
-      width: 120px;
+      width: 118.5px;
+      padding-right: 125px;
+
       color: #ff3059; 
-      border-color: #ff3059;
     }
     50% {
       opacity: 1;
@@ -141,6 +142,8 @@ header>nav>a:hover{
       opacity: 1;
       color: #ffffff;;
       width: 0px;
+      padding-right: 0px;
+
 
     }
   }
@@ -1913,9 +1916,10 @@ xs	< 576p
     @keyframes scaleFade {
         0% {
           opacity: 1;
-          width: 23vw;
+          padding-right: 23vw;
+          width: 21.89vw;
           color: #ff3059; 
-          border-color: #ff3059;
+
 
         }
         50% {
@@ -1925,6 +1929,7 @@ xs	< 576p
           opacity: 1;
           color: #ffffff;;
           width: 0px;
+          padding-right: 0px;
     
         }
       }
