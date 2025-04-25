@@ -674,9 +674,11 @@ icon-cont-test>#second:active{
 }
 .blog-card>.blog-inner-card>.details{
     padding: 25px;
+    padding-top: 10px;
 }
 .blog-card>.blog-inner-card>.details>.date{
     margin: 15px 0px;
+    margin-top: 10px;
     color: #555555;
     font-size: 16px;
 }
@@ -692,7 +694,7 @@ icon-cont-test>#second:active{
     color: #FF305B;
 }
 .blog-card>.blog-inner-card>.details>.info{
-    width: 95%;
+    width: 99%;
     color: #555555;
     font-size: 18px;
     line-height: 32px;
@@ -1101,6 +1103,7 @@ xs	< 576p
     .blog-card>.blog-inner-card{
         background-color: #03ecb6;
         background-color: white;
+
     }
     .blog-card>.blog-inner-card>.img-sec>img{
         display:block;
@@ -1108,9 +1111,12 @@ xs	< 576p
     }
     .blog-card>.blog-inner-card>.details{
         padding: 15px;
+        padding-top: 10px;
+        width: 99%;
     }
     .blog-card>.blog-inner-card>.details>.date{
         margin: 15px 0px;
+        margin-top: 10px;
         color: #555555;
         font-size: 16px;
     }
@@ -1123,7 +1129,7 @@ xs	< 576p
         margin-bottom: 15px;
     }
     .blog-card>.blog-inner-card>.details>.info{
-        width: 95%;
+        width: 99%;
         color: #555555;
         font-size: 20px;
         font-size: 16px;
@@ -1373,7 +1379,7 @@ xs	< 576p
         margin-top: 25px;
         background-color: rgba(0, 255, 136, 0.785);
         background-color: transparent;
-        width: 60%;
+        width: 70%;
         float:none;
         display: block;
         margin: auto;
@@ -1390,9 +1396,11 @@ xs	< 576p
     }
     .blog-card>.blog-inner-card>.details{
         padding: 15px;
+        padding-top: 10px;
     }
     .blog-card>.blog-inner-card>.details>.date{
         margin: 15px 0px;
+        margin-top: 10px;
         color: #555555;
         font-size: 18px;
     }
@@ -1406,14 +1414,14 @@ xs	< 576p
     .blog-card>.blog-inner-card>.details>.info{
         width: 99%;
         color: #555555;
-        font-size: 20px;
-        line-height: 30px;
+        font-size: 18px;
+        line-height: 28px;
         margin-bottom: 20px;
     }
     .blog-card>.blog-inner-card>.details>a{
         color:#333333;
         text-decoration: none;
-        font-size: 20px;
+        font-size: 18px;
         font-weight: 400;
     
     }
