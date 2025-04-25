@@ -662,7 +662,7 @@ icon-cont-test>#second:active{
     background-color: transparent;
     width: calc(100%/3);
     float:left;
-    padding: 20px;
+    padding: 10px;
 }
 .blog-card>.blog-inner-card{
     background-color: #03ecb6;
@@ -696,14 +696,14 @@ icon-cont-test>#second:active{
 .blog-card>.blog-inner-card>.details>.info{
     width: 99%;
     color: #555555;
-    font-size: 18px;
-    line-height: 32px;
+    font-size: 16px;
+    line-height: 30px;
     margin-bottom: 20px;
 }
 .blog-card>.blog-inner-card>.details>a{
     color:#333333;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
     transition: 0.5s ease-in-out;
 }
@@ -1096,7 +1096,7 @@ xs	< 576p
         margin-top: 25px;
         background-color: red;
         background-color: transparent;
-        width: calc(100%/3);
+        width: calc(100%/2);
         float:left;
         padding: 10px;
     }
@@ -1118,21 +1118,21 @@ xs	< 576p
         margin: 15px 0px;
         margin-top: 10px;
         color: #555555;
-        font-size: 16px;
+        font-size: 18px;
     }
     .blog-card>.blog-inner-card>.details>h3{
         font-family: "Source Sans Pro", sans-serif;
         color:#333333;
         font-weight:600;
         font-size: 27px;
-        font-size: 23px;
+        font-size: 25px;
         margin-bottom: 15px;
     }
     .blog-card>.blog-inner-card>.details>.info{
         width: 99%;
         color: #555555;
         font-size: 20px;
-        font-size: 16px;
+        font-size: 18px;
         line-height: 25px;
         margin-bottom: 20px;
     }
@@ -1140,7 +1140,7 @@ xs	< 576p
         color:#333333;
         text-decoration: none;
         font-size: 20px;
-        font-size: 16px;
+        font-size: 18px;
         font-weight: 400;
     }
     .cu-form{
@@ -1247,26 +1247,32 @@ xs	< 576p
         margin-bottom: 40px;
         margin-bottom: 0.1vw;
     }
+    .container .service{
+        width: 50%;
+        padding: 2.5px 5px;
+        margin-top: 2.8vw;
+
+    }
     .container .service .inner-service i{
         font-size: 28px;
-        font-size: 1.9vw;
+        font-size: 2vw;
         margin-top: 25px;
-        margin-top: 1.6vw;
+        margin-top: 1.2vw;
         margin-bottom: 25px;
-        margin-bottom: 1.6vw;
+        margin-bottom: 1.2vw;
     }
     .container .service .inner-service h3{
         font-size: 22px;
-        font-size:1.5vw ;
+        font-size:1.7vw ;
         font-weight: 550;
         margin-bottom: 15px;
-        margin-bottom: 0.8vw;
+        margin-bottom: 1.8vw;
     }
     .container .service .inner-service p{
         font-size: 16px;
-        font-size: 1.1vw;
+        font-size: 1.5vw;
         line-height: 25px;
-        line-height: 1.6vw;
+        line-height: 2vw;
         margin-bottom: 20px;
         margin-bottom: 1.4vw;
     }
