@@ -304,17 +304,13 @@ header>nav>a:hover{
     width: 40%;
     margin-bottom: 25px;
     margin-bottom: 1.1vw ;
-    text-decoration: none;
-
 
 }
 #email-excp{
     width: 55%;
     font-size: 1.2vw;
-    text-decoration: none;
-}
-#email-excp a {
-  text-decoration: none; /*Why? Because the browser of phones detedct emails then wraps them around an <a> tag which by default has text-decoration:underline*/
+
+
 }
 
 .profile-des>.pd-inner>ul>li>span{
@@ -394,7 +390,6 @@ header>nav>a:hover{
     width: 100%;
     padding: 10px 10px;
     transition: 0.5s ease-in-out;
-
 
 
 }
@@ -1762,7 +1757,7 @@ xs	< 576p
         margin-top: 25px;
         background-color: rgba(255, 0, 247, 0.785);
         background-color: transparent;
-        width: 70%;
+        width: 80%;
         float:none;
         display: block;
         margin: auto;
@@ -1778,31 +1773,34 @@ xs	< 576p
         width: 100%;
     }
     .blog-card>.blog-inner-card>.details{
-        padding: 14px;
+        padding: 15px;
+        padding-top: 10px;
     }
     .blog-card>.blog-inner-card>.details>.date{
-        margin: 15px 0px;
+        margin: 10px 0px;
+        margin-bottom: 14px;
         color: #555555;
-        font-size: 19px;
+        font-size: 16px;
     }
     .blog-card>.blog-inner-card>.details>h3{
         font-family: "Source Sans Pro", sans-serif;
         color:#333333;
         font-weight:600;
-        font-size: 28px;
+        font-size: 25px;
         margin-bottom: 15px;
     }
     .blog-card>.blog-inner-card>.details>.info{
-        width: 99%;
+        width: 100%;
         color: #555555;
-        font-size: 22px;
-        line-height: 30px;
+        font-size: 16px;
+        line-height: 28px;
         margin-bottom: 20px;
+    
     }
     .blog-card>.blog-inner-card>.details>a{
         color:#333333;
         text-decoration: none;
-        font-size: 21px;
+        font-size: 16px;
         font-weight: 400;
     
     }
@@ -2139,7 +2137,7 @@ xs	< 576p
         margin-top: 25px;
         background-color: rgba(0, 153, 255, 0.785);
         background-color: transparent;
-        width: 80%;
+        width: 95%;
         float:none;
         display: block;
         margin: auto;
@@ -2156,35 +2154,33 @@ xs	< 576p
     }
     .blog-card>.blog-inner-card>.details{
         padding: 15px;
+        padding-top: 10px;
+        padding-right: 0px;
     }
     .blog-card>.blog-inner-card>.details>.date{
         margin: 15px 0px;
+        margin-top: 5px;
         color: #555555;
-        font-size: 20px;
-        font-size: 3vw;
+        font-size: 16px;
     }
     .blog-card>.blog-inner-card>.details>h3{
         font-family: "Source Sans Pro", sans-serif;
         color:#333333;
         font-weight:600;
-        font-size: 30px;
-        font-size: 4.8vw;
+        font-size: 22px;
         margin-bottom: 15px;
     }
     .blog-card>.blog-inner-card>.details>.info{
         width: 99%;
         color: #555555;
-        font-size: 24px;
-        font-size: 3.5vw;
-        line-height: 30px;
-        line-height: 4vw;
+        font-size: 16px;
+        line-height: 24px;
         margin-bottom: 20px;
     }
     .blog-card>.blog-inner-card>.details>a{
         color:#333333;
         text-decoration: none;
-        font-size: 21px;
-        font-size: 3vw;
+        font-size: 16px;
         font-weight: 400;
     
     }
