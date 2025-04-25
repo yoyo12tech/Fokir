@@ -304,11 +304,17 @@ header>nav>a:hover{
     width: 40%;
     margin-bottom: 25px;
     margin-bottom: 1.1vw ;
+    text-decoration: none;
+
 
 }
 #email-excp{
     width: 55%;
     font-size: 1.2vw;
+    text-decoration: none;
+
+    
+
 
 
 }
