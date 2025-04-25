@@ -312,11 +312,9 @@ header>nav>a:hover{
     width: 55%;
     font-size: 1.2vw;
     text-decoration: none;
-
-    
-
-
-
+}
+#email-excp a {
+  text-decoration: none; /*Why? Because the browser of phones detedct emails then wraps them around an <a> tag which by default has text-decoration:underline*/
 }
 
 .profile-des>.pd-inner>ul>li>span{
