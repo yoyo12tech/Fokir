@@ -1305,6 +1305,26 @@ xs	< 576p
         font-size: 1.5vw;
         
     }
+    .stat{
+        width: 50%;
+        margin-bottom: 25px;
+
+    }
+    .stat>.inner-stat>i{
+        color: #ff305b;
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+    .stat>.inner-stat>h3{
+        font-size: 20px;
+        font-weight: 800;
+        margin-bottom: 10px;
+    }
+    .stat>.inner-stat>h5{
+        color: #818181;
+        font-size: 16px;
+        margin: 0;
+    }
     .client-card{
         background-color: #F1F1F1;
         width: 100%;
@@ -1652,9 +1672,24 @@ xs	< 576p
         background-color: white;
         background-color: transparent;
         float: left;
-        width: 50%;
+        width: 100%;
         padding: 10px 10px;
         margin-bottom: 40px;
+    }
+    .stat>.inner-stat>i{
+        color: #ff305b;
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+    .stat>.inner-stat>h3{
+        font-size: 20px;
+        font-weight: 800;
+        margin-bottom: 10px;
+    }
+    .stat>.inner-stat>h5{
+        color: #818181;
+        font-size: 16px;
+        margin: 0;
     }
     .client-card{
         background-color: #F1F1F1;
@@ -2050,7 +2085,22 @@ xs	< 576p
         float: left;
         width: 100%;
         padding: 10px 10px;
-        margin-bottom: 40px;
+        margin-bottom: 15px;
+    }
+    .stat>.inner-stat>i{
+        color: #ff305b;
+        font-size: 23px;
+        margin-bottom: 10px;
+    }
+    .stat>.inner-stat>h3{
+        font-size: 18px;
+        font-weight: 800;
+        margin-bottom: 10px;
+    }
+    .stat>.inner-stat>h5{
+        color: #818181;
+        font-size: 16px;
+        margin: 0;
     }
     .client-card{
         background-color: #F1F1F1;
