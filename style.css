@@ -705,7 +705,7 @@ icon-cont-test>#second:active{
     text-decoration: none;
     font-size: 16px;
     font-weight: 400;
-    transition: 0.5s ease-in-out;
+    transition: 0.3s ease-in-out;
 }
 .blog-card>.blog-inner-card>.details>a:hover{
     color:#ff305b ;
@@ -1266,28 +1266,30 @@ xs	< 576p
         width: 50%;
         padding: 2.5px 5px;
         margin-top: 2.8vw;
-
+    }
+    .container .service .inner-service{
+        padding: 10px 20px;
     }
     .container .service .inner-service i{
         font-size: 28px;
-        font-size: 2vw;
+        font-size: 3vw;
         margin-top: 25px;
         margin-top: 1.2vw;
         margin-bottom: 25px;
-        margin-bottom: 1.2vw;
+        margin-bottom: 1.4vw;
     }
     .container .service .inner-service h3{
         font-size: 22px;
-        font-size:1.7vw ;
+        font-size:2vw;
         font-weight: 550;
         margin-bottom: 15px;
         margin-bottom: 1.8vw;
     }
     .container .service .inner-service p{
         font-size: 16px;
-        font-size: 1.5vw;
+        font-size: 1.8vw;
         line-height: 25px;
-        line-height: 2vw;
+        line-height: 2.4vw;
         margin-bottom: 20px;
         margin-bottom: 1.4vw;
     }
@@ -1594,7 +1596,7 @@ xs	< 576p
     }
     .container .service .inner-service {
         width: 100%;
-        padding: 20px 50px;
+        padding: 20px 70px;
         transition: 0.5s ease-in-out;
     
     }
@@ -1607,14 +1609,14 @@ xs	< 576p
         margin-top: 25px;
         margin-top: 1.6vw;
         margin-bottom: 25px;
-        margin-bottom: 2.6vw;
+        margin-bottom: 2.8vw;
         transition: 0.5s ease-in-out;
     }
     .container .service .inner-service h3{
         text-align: center;
         font-family:"Source Sans Pro", sans-serif;
         font-size: 22px;
-        font-size:2.8vw ;
+        font-size:3vw ;
         font-weight: 550;
         margin-bottom: 15px;
         margin-bottom: 1.8vw;
@@ -1984,11 +1986,11 @@ xs	< 576p
         padding: 5px 5px;
     }
     .container .service .inner-service {
-        width: 120%;
+        width: 110%;
         margin-left: 120%;
         margin: auto;
         position: relative;top: 50%;left: 50%;transform: translate(-50%);
-        padding: 20px 50px;
+        padding: 20px 70px;
         transition: 0.5s ease-in-out;
     
     
@@ -1999,7 +2001,7 @@ xs	< 576p
         color: rgb(255, 48, 91);
         display: inline-block;
         font-size: 28px;
-        font-size: 4.8vw;
+        font-size: 6vw;
         margin-top: 25px;
         margin-top: 1.6vw;
         margin-bottom: 25px;
@@ -2010,7 +2012,7 @@ xs	< 576p
         text-align: center;
         font-family:"Source Sans Pro", sans-serif;
         font-size: 22px;
-        font-size:3.4vw ;
+        font-size:3.8vw ;
         font-weight: 550;
         margin-bottom: 15px;
         margin-bottom: 1.8vw;
@@ -2021,9 +2023,9 @@ xs	< 576p
     .container .service .inner-service p{
         text-align: center;
         font-size: 16px;
-        font-size: 2.8vw;
+        font-size: 3vw;
         line-height: 25px;
-        line-height: 4vw;
+        line-height: 4.3vw;
         margin-bottom: 20px;
         margin-bottom: 1.4vw;
     
@@ -2071,7 +2073,7 @@ xs	< 576p
     }
     .client-card>img{
         border-radius: 50%;
-        width:70px;
+        width:75px;
         left: 5%;
         top: 10%;
         display: inline-block;
@@ -2080,8 +2082,8 @@ xs	< 576p
         padding-bottom: 0.5%;
     }
     .client-card>.feedback{
-        width: 82%;
-        padding: 10px;
+        width: 75%;
+        padding: 8px;
         padding-left: 1px;
         padding-bottom: 1px;
         margin-bottom: 0px;
@@ -2091,33 +2093,33 @@ xs	< 576p
 
     }
     .feedback>h3{
-        margin-bottom: 4px;
+        margin-bottom: 2vw;
         font-size: 14px;
-        font-size: 3.5vw;
+        font-size: 4vw;
         color: #333;
     }
     .feedback>i{
         font-size: 10px;
-        font-size: 2.2vw;
-        margin-bottom: 10px;
+        font-size: 2.6vw;
+        margin-bottom: 3vw;
     }
     .feedback>p{
         color: #5b5b5b;
         font-size: 10px;
-        font-size: 2.4vw;
+        font-size: 2.8vw;
         margin-bottom: 10px;
         line-height: 15px;
-        line-height: 3.5vw;
+        line-height: 4.5vw;
     }
     .icon-cont-test{
-        font-size:21px ;
+        font-size:5vw ;
         margin-bottom: 1px;
     }
     .blog-card{
         margin-top: 25px;
         background-color: rgba(0, 153, 255, 0.785);
         background-color: transparent;
-        width: 95%;
+        width: 99%;
         float:none;
         display: block;
         margin: auto;
@@ -2134,22 +2136,22 @@ xs	< 576p
     }
     .blog-card>.blog-inner-card>.details{
         padding: 15px;
-        padding-top: 10px;
-        padding-right: 0px;
+        padding-top: 2px;
+        padding-right: 5px;
     }
     .blog-card>.blog-inner-card>.details>.date{
         margin: 2vw 0px;
         margin-top: 1vw;
         color: #555555;
         font-size: 16px;
-        font-size: 2.5vw;
+        font-size: 2.6vw;
     }
     .blog-card>.blog-inner-card>.details>h3{
         font-family: "Source Sans Pro", sans-serif;
         color:#333333;
-        font-weight:600;
+        font-weight:550;
         font-size: 22px;
-        font-size: 3.5vw;
+        font-size: 4vw;
         margin-bottom: 1.8vw;
     }
     .blog-card>.blog-inner-card>.details>.info{
@@ -2157,10 +2159,10 @@ xs	< 576p
         color: #555555;
         font-size: 16px;
         line-height: 24px;
-        line-height: 3.9vw;
+        line-height: 4vw;
         margin-bottom: 20px;
-        margin-bottom: 3vw;
-        font-size: 2.6vw;
+        margin-bottom: 4vw;
+        font-size: 2.8vw;
         padding-right: 1vw;
 
     }
@@ -2168,7 +2170,7 @@ xs	< 576p
         color:#333333;
         text-decoration: none;
         font-size: 16px;
-        font-size: 2.5vw;
+        font-size: 2.6vw;
         font-weight: 400;
     
     }
