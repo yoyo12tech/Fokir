@@ -2139,7 +2139,7 @@ xs	< 576p
     }
     .blog-card>.blog-inner-card>.details>.date{
         margin: 2vw 0px;
-        margin-top: 5px;
+        margin-top: 1vw;
         color: #555555;
         font-size: 16px;
         font-size: 2.5vw;
@@ -2150,16 +2150,18 @@ xs	< 576p
         font-weight:600;
         font-size: 22px;
         font-size: 3.5vw;
+        margin-bottom: 1.8vw;
     }
     .blog-card>.blog-inner-card>.details>.info{
         width: 99%;
         color: #555555;
         font-size: 16px;
-        font-size: 2.5vw;
         line-height: 24px;
-        line-height: 3.5vw;
+        line-height: 3.9vw;
         margin-bottom: 20px;
-        font-size: 2.5vw;
+        margin-bottom: 3vw;
+        font-size: 2.6vw;
+        padding-right: 1vw;
 
     }
     .blog-card>.blog-inner-card>.details>a{
@@ -2167,7 +2169,6 @@ xs	< 576p
         text-decoration: none;
         font-size: 16px;
         font-size: 2.5vw;
-
         font-weight: 400;
     
     }
