@@ -277,7 +277,7 @@ header>nav>a:hover{
 .profile-des>.pd-inner>p{
     color: #555555;
     font-size: 16px;
-    font-size: 1.2vw;
+    font-size: 1.3vw;
     line-height: 25px;
     line-height:1.8vw ;
     font-weight: 400;
@@ -291,7 +291,7 @@ header>nav>a:hover{
     color: #555555;
     list-style: none;
     font-size: 16px;
-    font-size: 1.2vw;
+    font-size: 1.3vw;
     line-height: 25px;
     line-height:1.8vw ;
     font-weight: 400;
@@ -308,7 +308,7 @@ header>nav>a:hover{
 }
 #email-excp{
     width: 55%;
-    font-size: 1.2vw;
+    font-size: 1.3vw;
 
 
 }
@@ -949,6 +949,13 @@ xs	< 576p
 
 @media (min-width:992px) and (max-width:1199.8px) /*LG*/
 {
+    .container{
+        background-color: blueviolet;
+        background-color: transparent;
+        margin: auto;
+        width: 90%;
+        padding: 8% 2%;
+    }
     header{
         background-color: blue;
         background-color: transparent;
@@ -1160,7 +1167,15 @@ xs	< 576p
 }
 
 @media (min-width:768px) and (max-width:991.99px) /*MD*/
-{
+{   
+    .container{
+        background-color: blueviolet;
+        background-color: transparent;
+        margin: auto;
+        width: 90%;
+        padding: 8% 1%;
+    }
+
     header{
         background-color: rgb(246, 255, 0);
         background-color: transparent;
@@ -1207,15 +1222,15 @@ xs	< 576p
         font-size: 2.3vw;
     }
     .profile-des>.pd-inner>p{
-        font-size: 1.3vw;
-        line-height:1.8vw ;
+        font-size: 1.4vw;
+        line-height:1.9vw ;
         font-weight: 400;
         padding-bottom: 1.8vw ;
         margin-bottom: 1.8vw ;
     }
     .profile-des>.pd-inner>ul{
-        font-size: 1.3vw;
-        line-height:1.8vw ;
+        font-size: 1.4vw;
+        line-height:1.9vw ;
         width: 120%;
     }
     
@@ -1225,7 +1240,7 @@ xs	< 576p
     }
     #email-excp{
         width: 55%;
-        font-size: 1.3vw;
+        font-size: 1.4vw;
     }
     
     .profile-des>.pd-inner>button{
@@ -1871,7 +1886,7 @@ xs	< 576p
         background-color: transparent;
         float: none;
         display: block;
-        width: 80%;
+        width: 90%;
         margin: auto;
         margin-bottom: 10%;
     }
@@ -1904,15 +1919,15 @@ xs	< 576p
         margin-bottom: 2.5vw;
     }
     .profile-des>.pd-inner>p{
-        font-size: 2.4vw;
-        line-height:3.6vw ;
+        font-size: 2.5vw;
+        line-height:3.7vw ;
         font-weight: 400;
         padding-bottom: 2.3vw ;
         margin-bottom: 2.3vw ;
     }
     .profile-des>.pd-inner>ul{
-        font-size: 2.4vw;
-        line-height:2.6vw ;
+        font-size: 2.5vw;
+        line-height:2.7vw ;
         width: 120%;
     }
     
@@ -1922,7 +1937,7 @@ xs	< 576p
     }
     #email-excp{
         width: 55%;
-        font-size: 2.4vw;
+        font-size: 2.5vw;
     }
     
     .profile-des>.pd-inner>button{
@@ -1956,9 +1971,11 @@ xs	< 576p
         padding: 5px 5px;
     }
     .container .service .inner-service {
-        width: 100%;
+        width: 120%;
+        margin-left: 120%;
         margin: auto;
-        padding: 10px 50px;
+        position: relative;top: 50%;left: 50%;transform: translate(-50%);
+        padding: 20px 50px;
         transition: 0.5s ease-in-out;
     
     
@@ -1969,18 +1986,18 @@ xs	< 576p
         color: rgb(255, 48, 91);
         display: inline-block;
         font-size: 28px;
-        font-size: 4.6vw;
+        font-size: 4.8vw;
         margin-top: 25px;
         margin-top: 1.6vw;
         margin-bottom: 25px;
-        margin-bottom: 2.6vw;
+        margin-bottom: 2.8vw;
         transition: 0.5s ease-in-out;
     }
     .container .service .inner-service h3{
         text-align: center;
         font-family:"Source Sans Pro", sans-serif;
         font-size: 22px;
-        font-size:3.1vw ;
+        font-size:3.4vw ;
         font-weight: 550;
         margin-bottom: 15px;
         margin-bottom: 1.8vw;
@@ -1991,9 +2008,9 @@ xs	< 576p
     .container .service .inner-service p{
         text-align: center;
         font-size: 16px;
-        font-size: 2.5vw;
+        font-size: 2.8vw;
         line-height: 25px;
-        line-height: 3.2vw;
+        line-height: 4vw;
         margin-bottom: 20px;
         margin-bottom: 1.4vw;
     
@@ -2022,10 +2039,15 @@ xs	< 576p
     }
     .client-card{
         background-color: #F1F1F1;
-        width: 100%;
+        width: 120%;
         margin:auto;
         margin-top: 30px;
         margin-bottom: 30px;
+        position: relative;
+        left: 50%;
+        top: 50%;
+        transform: translateY(-50%);
+        transform: translateX(-50%);
     }
     .client-card>.corner{
         /*making a triangle when u use birder right and top together with width and height 0 u make
@@ -2036,7 +2058,7 @@ xs	< 576p
     }
     .client-card>img{
         border-radius: 50%;
-        width:60px;
+        width:70px;
         left: 5%;
         top: 10%;
         display: inline-block;
@@ -2045,7 +2067,7 @@ xs	< 576p
         padding-bottom: 0.5%;
     }
     .client-card>.feedback{
-        width: 85%;
+        width: 82%;
         padding: 10px;
         padding-left: 1px;
         padding-bottom: 1px;
@@ -2053,6 +2075,7 @@ xs	< 576p
         margin-left: 12px;
         position: relative;
         top: -10px;
+
     }
     .feedback>h3{
         margin-bottom: 4px;
@@ -2061,13 +2084,13 @@ xs	< 576p
     }
     .feedback>i{
         font-size: 10px;
-        margin-bottom: 6px;
+        margin-bottom: 18px;
     }
     .feedback>p{
         color: #5b5b5b;
         font-size: 10px;
         margin-bottom: 10px;
-        line-height: 14px;
+        line-height: 15px;
     }
     .icon-cont-test{
         font-size:21px ;
