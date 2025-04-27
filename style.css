@@ -1965,7 +1965,7 @@ xs	< 576p
         display: block;
         width: 90%;
         margin: auto;
-        margin-bottom: 15%;
+        margin-bottom: 8%;
     }
     .profile-pic .pp-inner .img-overlay-wrapper .overlay-frame .logos-container{
         margin: auto;
@@ -2005,7 +2005,7 @@ xs	< 576p
     }
     .profile-des>.pd-inner>ul{
         font-size: 2.8vw;
-        line-height:4vw ;
+        line-height:2.5vw ;
         width: 109%;
     }
     
