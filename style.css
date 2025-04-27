@@ -1213,24 +1213,24 @@ xs	< 576p
         background-color: transparent;
     }
     .profile-des>.pd-inner>h2{
-        font-size: 2.3vw;
+        font-size: 2.4vw;
         line-height: 1.3vw;
         margin-bottom: 2vw;
     }
     
     .profile-des>.pd-inner>h2>span{
-        font-size: 2.3vw;
+        font-size: 2.4vw;
     }
     .profile-des>.pd-inner>p{
-        font-size: 1.4vw;
-        line-height:1.9vw ;
+        font-size: 1.6vw;
+        line-height:2.2vw ;
         font-weight: 400;
         padding-bottom: 1.8vw ;
         margin-bottom: 1.8vw ;
     }
     .profile-des>.pd-inner>ul{
-        font-size: 1.4vw;
-        line-height:1.9vw ;
+        font-size: 1.6vw;
+        line-height:2.2vw ;
         width: 120%;
     }
     
@@ -1240,7 +1240,7 @@ xs	< 576p
     }
     #email-excp{
         width: 55%;
-        font-size: 1.4vw;
+        font-size: 1.6vw;
     }
     
     .profile-des>.pd-inner>button{
@@ -1540,7 +1540,7 @@ xs	< 576p
         background-color: transparent;
         float: none;
         display: block;
-        width: 60%;
+        width: 70%;
         margin: auto;
         margin-bottom: 10%;
     }
@@ -1551,40 +1551,40 @@ xs	< 576p
         margin-top: 60%;
         background-color: #ec220300;
         background-color: transparent;
-        font-size: 1.9vw;
+        font-size: 2vw;
         padding: 0 8%;
     }
 
     .profile-des{
         float: none;
         display: block;
-        width: 90%;
+        width: 100%;
         margin: auto;
     }
     .profile-des>.pd-inner>h2{
-        font-size: 2.7vw;
+        font-size: 2.9vw;
         line-height: 1.7vw;
         margin-bottom: 2.3vw;
     }
     
     .profile-des>.pd-inner>h2>span{
         display: inline-block;
-        font-size: 2.7vw;
+        font-size: 2.9vw;
         line-height: 1.7vw;
 
 
     }
     .profile-des>.pd-inner>p{
-        font-size: 2vw;
-        line-height:2.6vw ;
+        font-size: 2.2vw;
+        line-height:3vw ;
         font-weight: 400;
         padding-bottom: 2vw ;
         margin-bottom: 2vw ;
     }
     .profile-des>.pd-inner>ul{
-        font-size: 2vw;
+        font-size: 2.2vw;
         line-height:2.6vw ;
-        width: 130%;
+        width: 110%;
     }
     
     .profile-des>.pd-inner>ul>li{
@@ -1592,8 +1592,8 @@ xs	< 576p
     
     }
     #email-excp{
-        width: 55%;
-        font-size: 2vw;
+        width: 50%;
+        font-size: 2.2vw;
     }
     
     .profile-des>.pd-inner>button{
@@ -1630,7 +1630,7 @@ xs	< 576p
     }
     .container .service .inner-service {
         width: 100%;
-        padding: 20px 70px;
+        padding: 20px 50px;
         transition: 0.5s ease-in-out;
     
     }
@@ -1639,7 +1639,7 @@ xs	< 576p
         color: rgb(255, 48, 91);
         display: inline-block;
         font-size: 28px;
-        font-size: 4vw;
+        font-size: 5vw;
         margin-top: 25px;
         margin-top: 1.6vw;
         margin-bottom: 25px;
@@ -1650,7 +1650,7 @@ xs	< 576p
         text-align: center;
         font-family:"Source Sans Pro", sans-serif;
         font-size: 22px;
-        font-size:3vw ;
+        font-size:4vw ;
         font-weight: 550;
         margin-bottom: 15px;
         margin-bottom: 1.8vw;
@@ -1661,9 +1661,9 @@ xs	< 576p
     .container .service .inner-service p{
         text-align: center;
         font-size: 16px;
-        font-size: 2.4vw;
+        font-size: 3vw;
         line-height: 25px;
-        line-height: 3.2vw;
+        line-height: 3.8vw;
         margin-bottom: 20px;
         margin-bottom: 1.4vw;
     
@@ -1761,7 +1761,7 @@ xs	< 576p
         margin-top: 25px;
         background-color: rgba(255, 0, 247, 0.785);
         background-color: transparent;
-        width: 80%;
+        width: 95%;
         float:none;
         display: block;
         margin: auto;
@@ -1785,31 +1785,31 @@ xs	< 576p
         margin-bottom: 2vw;
         color: #555555;
         font-size: 16px;
-        font-size: 2.2vw;
+        font-size: 2.4vw;
     }
     .blog-card>.blog-inner-card>.details>h3{
         font-family: "Source Sans Pro", sans-serif;
         color:#333333;
         font-weight:600;
         font-size: 25px;
-        font-size: 3vw;
+        font-size: 4vw;
         margin-bottom: 2vw;
     }
     .blog-card>.blog-inner-card>.details>.info{
         width: 100%;
         color: #555555;
         font-size: 14px;
-        font-size: 2.2vw;
+        font-size: 2.5vw;
         line-height: 20px;
-        line-height: 3vw;
-        margin-bottom: 3vw;
+        line-height: 4vw;
+        margin-bottom: 4vw;
     
     }
     .blog-card>.blog-inner-card>.details>a{
         color:#333333;
         text-decoration: none;
         font-size: 14px;
-        font-size: 2vw;
+        font-size: 2.4vw;
         font-weight: 400;
     
     }
@@ -1820,44 +1820,58 @@ xs	< 576p
         margin-top: 30px;
     }
     .cu-form>input:not(.subject){
-        width: 90%;
+        width: 100%;
         display: inline-block;
         margin-left: 2%;
         margin-right: 2%;
         border: 1px solid rgba(128, 128, 128, 0.655);
         border-radius: 8px;
-        margin-bottom: 20px;
-        height: 45px;
+        margin-bottom: 15px;
+        height: 40px;
+        font-size: 14px;
+    }
+    .cu-form>input:not(.subject)::placeholder{
+        font-size: 14px;
+
     }
     .cu-form>.subject{
-        width: 90%;
-        height: 45px;
-        margin-left: 0.556%;
+        width: 100%;
+        height: 40px;
+        margin-left: 2%;
         border: 1px solid rgba(128, 128, 128, 0.655);
         border-radius: 8px;
-        margin-bottom: 20px;
-    
+        margin-bottom: 15px;
+        font-size: 14px;
+    }
+    .cu-form>.subject::placeholder{
+        font-size: 14px;
+
     }
     .cu-form>.messages{
-        width: 90%;
-        height: 80px;
-        margin-left: 0.6%;
+        width: 100%;
+        height: 60px;
+        margin-left: 2%;
         border: 1px solid rgba(128, 128, 128, 0.655);
         border-radius: 8px;
         margin-bottom: 5px;
+        font-size: 14px;
+
+    }
+    .cu-form>.messages::placeholder{
+        font-size: 14px;
     }
     .cu-form>button{
         background-color: rgb(255, 48, 91);
         color: #ffffff;
         padding: 1.8vw 2vw;
-        border-radius: 4px;
+        border-radius: 2px;
         border: none;
         transition: 0.3s;
         font-size: 17px;
-        font-size: 1.7vw;
+        font-size: 1.8vw;
         letter-spacing: 1.2px;
-        margin-top: 4vw;
-        margin-left:5.8% ;
+        margin-top: 2vw;
+        margin-left:2.3% ;
         display: block;
     }
     #footer>.container{
@@ -1951,7 +1965,7 @@ xs	< 576p
         display: block;
         width: 90%;
         margin: auto;
-        margin-bottom: 10%;
+        margin-bottom: 15%;
     }
     .profile-pic .pp-inner .img-overlay-wrapper .overlay-frame .logos-container{
         margin: auto;
@@ -1960,52 +1974,54 @@ xs	< 576p
         margin-top: 60%;
         background-color: #ec220300;
         background-color: transparent;
-        font-size: 2.5vw;
+        font-size: 3vw;
         padding: 0 8%;
     }
 
     .profile-des{
         float: none;
         display: block;
-        width: 100%;
+        width: 120%;
+        position: relative; top: 0%; left: 50%; transform: translate(-50%);
         margin: auto;
     }
     .profile-des>.pd-inner>h2{
-        font-size: 3.8vw;
+        font-size: 4vw;
         line-height: 2.5vw;
         margin-bottom: 2.5vw;
     }
     
     .profile-des>.pd-inner>h2>span{
-        font-size: 3.8vw;
+        font-size: 4vw;
         line-height: 2.5vw;
         margin-bottom: 2.5vw;
     }
     .profile-des>.pd-inner>p{
-        font-size: 2.5vw;
-        line-height:3.7vw ;
+        font-size: 2.8vw;
+        line-height:4vw ;
         font-weight: 400;
-        padding-bottom: 2.3vw ;
-        margin-bottom: 2.3vw ;
+        padding-bottom: 4vw ;
+        margin-bottom: 4vw ;
     }
     .profile-des>.pd-inner>ul{
-        font-size: 2.5vw;
-        line-height:2.7vw ;
-        width: 120%;
+        font-size: 2.8vw;
+        line-height:4vw ;
+        width: 109%;
     }
     
     .profile-des>.pd-inner>ul>li{
-        margin-bottom: 2vw ;
+        margin-bottom: 3vw ;
     
     }
     #email-excp{
         width: 55%;
-        font-size: 2.5vw;
+        font-size: 2.8vw;
     }
     
     .profile-des>.pd-inner>button{
-        font-size: 2vw;
+        font-size: 2.5vw;
         margin-bottom: 1vw;
+        padding: 1vw;
     }
     .section-heading{
         font-size: 6vw;
@@ -2038,7 +2054,7 @@ xs	< 576p
         margin-left: 120%;
         margin: auto;
         position: relative;top: 50%;left: 50%;transform: translate(-50%);
-        padding: 20px 70px;
+        padding: 20px 30px;
         transition: 0.5s ease-in-out;
     
     
@@ -2060,7 +2076,7 @@ xs	< 576p
         text-align: center;
         font-family:"Source Sans Pro", sans-serif;
         font-size: 22px;
-        font-size:3.8vw ;
+        font-size:4.5vw ;
         font-weight: 550;
         margin-bottom: 15px;
         margin-bottom: 1.8vw;
@@ -2071,7 +2087,7 @@ xs	< 576p
     .container .service .inner-service p{
         text-align: center;
         font-size: 16px;
-        font-size: 3vw;
+        font-size: 3.5vw;
         line-height: 25px;
         line-height: 4.3vw;
         margin-bottom: 20px;
@@ -2145,7 +2161,7 @@ xs	< 576p
         padding-bottom: 0.5%;
     }
     .client-card>.feedback{
-        width: 75%;
+        width: 80%;
         padding: 8px;
         padding-left: 1px;
         padding-bottom: 1px;
@@ -2169,10 +2185,10 @@ xs	< 576p
     .feedback>p{
         color: #5b5b5b;
         font-size: 10px;
-        font-size: 2.8vw;
+        font-size: 2.6vw;
         margin-bottom: 10px;
         line-height: 15px;
-        line-height: 4.5vw;
+        line-height: 3.8vw;
     }
     .icon-cont-test{
         font-size:5vw ;
@@ -2182,9 +2198,10 @@ xs	< 576p
         margin-top: 25px;
         background-color: rgba(0, 153, 255, 0.785);
         background-color: transparent;
-        width: 99%;
+        width: 110%;
         float:none;
         display: block;
+        position: relative; top: 50%;left: 50%;transform: translate(-50%);
         margin: auto;
         padding: 10px;
         margin-top: 30px;
@@ -2204,17 +2221,16 @@ xs	< 576p
     }
     .blog-card>.blog-inner-card>.details>.date{
         margin: 2vw 0px;
-        margin-top: 1vw;
         color: #555555;
         font-size: 16px;
-        font-size: 2.6vw;
+        font-size: 2.9vw;
     }
     .blog-card>.blog-inner-card>.details>h3{
         font-family: "Source Sans Pro", sans-serif;
         color:#333333;
         font-weight:550;
         font-size: 22px;
-        font-size: 4vw;
+        font-size: 5vw;
         margin-bottom: 1.8vw;
     }
     .blog-card>.blog-inner-card>.details>.info{
@@ -2225,7 +2241,7 @@ xs	< 576p
         line-height: 4vw;
         margin-bottom: 20px;
         margin-bottom: 4vw;
-        font-size: 2.8vw;
+        font-size: 3vw;
         padding-right: 1vw;
 
     }
@@ -2233,13 +2249,14 @@ xs	< 576p
         color:#333333;
         text-decoration: none;
         font-size: 16px;
-        font-size: 2.6vw;
+        font-size: 2.9vw;
         font-weight: 400;
     
     }
     .cu-form{
         text-align: center;
-        width: 100%;
+        width: 110%;
+        position: relative; top: 50%;left: 50%;transform: translate(-50%);
         margin: auto;
         margin-top: 30px;
     }
@@ -2250,50 +2267,52 @@ xs	< 576p
         margin-right: 2%;
         border: 1px solid rgba(128, 128, 128, 0.655);
         border-radius: 8px;
-        margin-bottom: 15px;
-        height: 40px;
-        font-size: 16px;
+        margin-bottom: 10px;
+        height: 30px;
+        font-size: 12px;
     }
     .cu-form>input:not(.subject)::placeholder{
-        font-size: 16px;
+        font-size: 12px;
 
     }
     .cu-form>.subject{
         width: 100%;
-        height: 40px;
+        height: 30px;
         margin-left: 1.9%;
         border: 1px solid rgba(128, 128, 128, 0.655);
         border-radius: 8px;
-        margin-bottom: 15px;
-        font-size: 16px;
+        margin-bottom: 10px;
+        font-size: 12px;
     }
     .cu-form>.subject::placeholder{
-        font-size: 16px;
+        font-size: 12px;
     }
     .cu-form>.messages{
         width: 100%;
-        height: 75px;
+        height: 50px;
         margin-left: 1.9%;
         border: 1px solid rgba(128, 128, 128, 0.655);
         border-radius: 8px;
         margin-bottom: 5px;
+        font-size: 12px;
+
     }
     .cu-form>.messages::placeholder{
-        font-size: 16px;
+        font-size: 12px;
     }
 
     .cu-form>button{
         background-color: rgb(255, 48, 91);
         color: #ffffff;
-        padding: 2vw 3vw;
+        padding: 1.5vw 1.5vw;
         border-radius: 4px;
         border: none;
         transition: 0.3s;
         font-size: 17px;
-        font-size: 2.8vw;
+        font-size: 1.5vw;
         letter-spacing: 1.2px;
-        margin-top: 4vw;
-        margin-left:4.8% ;
+        margin-top: 2vw;
+        margin-left:2.5% ;
         display: block;
     }
     #footer>.container{
