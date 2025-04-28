@@ -733,7 +733,7 @@ icon-cont-test>#second:active{
     border-radius: 8px;
     margin-bottom: 25px;
     font-size: 18px;
-    padding-left: 10px;
+    padding-left: 8px;
 }
 .cu-form>.subject{
     display: inline-block;
@@ -743,7 +743,7 @@ icon-cont-test>#second:active{
     border: 1px solid rgba(128, 128, 128, 0.655);
     border-radius: 8px;
     padding: 5px;
-    padding-left: 10px;
+    padding-left: 8px;
     margin-bottom: 25px;
     font-size: 18px;
 
@@ -761,8 +761,8 @@ icon-cont-test>#second:active{
     border-radius: 8px;
     padding: 5px;
     margin-bottom: 25px;
-    padding-left: 10px;
-    padding-top: 10px;
+    padding-left: 7.2px;
+    padding-top: 15px;
     font-size: 18px;
 
 
@@ -1354,16 +1354,19 @@ xs	< 576p
         width: 80%;
         padding: 26px;
         margin-bottom: 1px;
+        margin-left: 20px;
         position: relative;
         top: 0%;
     }
     .feedback>h3{
-        margin-bottom: 10px;
+        margin-bottom: 15px;
         font-size: 18px;
         color: #333;
     }
     .feedback>i{
         font-size: 14px;
+        margin-bottom: 15px;
+
     }
     .feedback>i>p{
         display: inline-block;
@@ -1728,22 +1731,22 @@ xs	< 576p
         top: 8%;
     }
     .client-card>.feedback{
-        width: 75%;
+        width: 85%;
         padding: 26px;
         padding-bottom: 10px;
         margin-bottom: 1px;
-        margin-left: 17px;
+        margin-left: 10px;
         position: relative;
         top: 0%;
     }
     .feedback>h3{
-        margin-bottom: 14px;
-        font-size: 19px;
+        margin-bottom: 10px;
+        font-size: 17px;
         color: #333;
     }
     .feedback>i{
-        font-size: 14px;
-        margin-bottom: 15px;
+        font-size: 12px;
+        margin-bottom: 10px;
     }
     .feedback>i>p{
         display: inline-block;
@@ -1751,9 +1754,9 @@ xs	< 576p
     }
     .feedback>p{
         color: #5b5b5b;
-        font-size: 15px;
-        margin-bottom: 21px;
-        line-height: 22px;
+        font-size: 12px;
+        margin-bottom: 11px;
+        line-height: 17px;
     }
     .icon-cont-test{
         font-size:21px ;
@@ -2022,11 +2025,11 @@ xs	< 576p
     
     .profile-des>.pd-inner>button{
         font-size: 2.5vw;
-        margin-bottom: 1vw;
+        margin-bottom: 7vw;
         padding: 1vw;
     }
     .section-heading{
-        font-size: 7vw;
+        font-size: 6vw;
         line-height: 6vw;
         margin-bottom: 0.3vw;
         
@@ -2034,10 +2037,10 @@ xs	< 576p
     .heading-dec{
         text-align: center;
         height: 5px;
-        height: 1vw;
+        height: 0.8vw;
         color:red;
         font-weight: 500;
-        font-size: 2.5vw;
+        font-size: 2vw;
     }
     #hd{
         margin-bottom: 40px;
@@ -2136,10 +2139,10 @@ xs	< 576p
     }
     .client-card{
         background-color: #F1F1F1;
-        width: 110%;
+        width: 108%;
         margin:auto;
-        margin-top: 60px;
-        margin-bottom: 60px;
+        margin-top: 1vw;
+        margin-bottom: 5vw;
         padding: 2px;
         position: relative;
         left: 50%;
@@ -2150,15 +2153,15 @@ xs	< 576p
     .client-card>.corner{
         /*making a triangle when u use birder right and top together with width and height 0 u make
         a box thats composed of 2 trangles adjacent and oopsite to each other, make */
-        border-right: 100px solid rgba(0, 0, 0, 0);
-        border-top: 100px solid hsl(348, 100%, 61%);
+        border-right: 110px solid rgba(0, 0, 0, 0);
+        border-top: 110px solid hsl(348, 100%, 61%);
         border-top-left-radius: 1px;
     }
     .client-card>img{
         border-radius: 50%;
         width:75px;
-        left: 2%;
-        top: 5%;
+        left: 4%;
+        top: 7%;
         display: inline-block;
     }
     .client-card{
@@ -2178,23 +2181,23 @@ xs	< 576p
 
     }
     .feedback>h3{
-        margin-bottom: 3vw;
+        margin-bottom: 0.5vw;
         font-size: 14px;
-        font-size: 4.5vw;
+        font-size: 4vw;
         color: #333;
     }
     .feedback>i{
         font-size: 10px;
-        font-size: 3vw;
-        margin-bottom: 3vw;
+        font-size: 2vw;
+        margin-bottom: 1.5vw;
     }
     .feedback>p{
         color: #5b5b5b;
         font-size: 10px;
-        font-size: 3vw;
-        margin-bottom: 3vw;
+        font-size: 2.1vw;
+        margin-bottom: 1.5vw;
         line-height: 15px;
-        line-height: 5vw;
+        line-height: 3vw;
     }
     .icon-cont-test{
         font-size:5vw ;
@@ -2310,12 +2313,12 @@ xs	< 576p
     .cu-form>button{
         background-color: rgb(255, 48, 91);
         color: #ffffff;
-        padding: 1.5vw 1.5vw;
+        padding: 1.7vw 1.7vw;
         border-radius: 4px;
         border: none;
         transition: 0.3s;
         font-size: 17px;
-        font-size: 2vw;
+        font-size: 2.2vw;
         letter-spacing: 1.2px;
         margin-top: 2vw;
         margin-left:2.5% ;
