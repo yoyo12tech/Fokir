@@ -2048,7 +2048,7 @@ xs	< 576p
         font-size: 3vw;
     }
     #hd{
-        margin-bottom: 5px;
+        margin-bottom: 1vw;
     }
     .container .service{
         float: none;
@@ -2146,7 +2146,7 @@ xs	< 576p
         background-color: #F1F1F1;
         width: 108%;
         margin:auto;
-        margin-top: 7vw;
+        margin-top: 7.5vw;
         margin-bottom: 8vw;
         padding: 2px;
         position: relative;
