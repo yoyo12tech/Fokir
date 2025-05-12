@@ -1519,12 +1519,6 @@ xs	< 576p
 
 @media (min-width:576px) and (max-width:767.98px) /*SM*/
 {
-    .bg{
-        background-size: contain;
-    }
-    .bg-overlay{
-        background-color: rgba(0, 0, 0, 0.6);
-    }
     header{
         background-color: rgb(30, 162, 30);
         background-color: transparent;
@@ -1906,12 +1900,6 @@ xs	< 576p
 
 @media (max-width:575.98px)/*XS*/
 {
-    .bg{
-        background-size: contain;
-    }
-    .bg-overlay{
-        background-color: rgba(0, 0, 0, 0.6);
-    }
     header{
         background-color: rgb(221, 0, 255);
         background-color: transparent;
