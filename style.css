@@ -5,6 +5,11 @@
     font-family: "Roboto", sans-serif;
     scroll-behavior: smooth;
 }
+a{
+    text-decoration: none;
+    color: inherit;
+}
+    
 /*HERO-SECTION*/
 .bg{
     min-height: 100dvh;
