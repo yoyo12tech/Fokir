@@ -147,13 +147,13 @@
             <p class="heading-dec" id="hd">__________</p>
             <div class="menu-options">
                 <ul>
-                    <li>All</li>
-                    <li>Graphic</li>
-                    <li>Web design</li>
-                    <li>Branding</li>
+                    <li class="active" data-filter="all">All</li>
+                    <li data-filter="graphic">Graphic</li>
+                    <li data-filter="web">Web design</li>
+                    <li data-filter="branding">Branding</li>
                 </ul>
             </div>
-            <div class="product">
+            <div class="product" data-category="graphic web branding">
                 <div class="inner-product">
                     <img src="./pics/p_1img.jpg" alt="product1">
                     <div class="overlay-layer">
@@ -161,7 +161,7 @@
                     </div>
                 </div>
             </div>
-            <div class="product">
+            <div class="product" data-category="graphic">
                 <div class="inner-product">
                     <img src="./pics/p_2img.jpg" alt="product2">
                     <div class="overlay-layer">
@@ -169,7 +169,7 @@
                     </div>
                 </div>
             </div>
-            <div class="product">
+            <div class="product" data-category="branding">
                 <div class="inner-product">
                     <img src="./pics/p_3img.jpg" alt="product3">
                     <div class="overlay-layer">
@@ -177,7 +177,7 @@
                     </div>
                 </div>
             </div>
-            <div class="product">
+            <div class="product" data-category="graphic branding">
                 <div class="inner-product">
                     <img src="./pics/p_4img.jpg" alt="product4">
                     <div class="overlay-layer">
@@ -185,7 +185,7 @@
                     </div>
                 </div>
             </div>
-            <div class="product">
+            <div class="product" data-category="branding">
                 <div class="inner-product">
                     <img src="./pics/p_5img.jpg" alt="product5">
                     <div class="overlay-layer">
@@ -193,7 +193,7 @@
                     </div>
                 </div>
             </div>
-            <div class="product">
+            <div class="product" data-category="web">
                 <div class="inner-product">
                     <img src="./pics/p_6img.jpg" alt="product6">
                     <div class="overlay-layer">
@@ -364,6 +364,7 @@
 
     <script>
         window.addEventListener("DOMContentLoaded",()=>{
+                        
             const statsSection = document.querySelector("#stats");
             const counters = Array.from(document.querySelectorAll(".counter"));
             
@@ -410,7 +411,32 @@
             }
             else{
                 StartAllCouters();
-            }            
+            }
+            
+            
+
+            const filterButtons = Array.from(document.querySelectorAll(".menu-options li"));
+            const portfolioItems = Array.from(document.querySelectorAll(".product"));
+
+            const filterPortfolio = (filter) => {
+                portfolioItems.forEach((item) => {
+                    const category = item.dataset.category || "";
+                    if (filter === "all" || category.includes(filter)) {
+                        item.classList.remove("hide");
+                    } else {
+                        item.classList.add("hide");
+                    }
+                });
+            };
+
+            filterButtons.forEach((btn) => {
+                btn.addEventListener("click", () => {
+                    filterButtons.forEach((b) => b.classList.remove("active"));
+                    btn.classList.add("active");
+                    const filter = btn.dataset.filter || "all";
+                    filterPortfolio(filter);
+                });
+            });
         
         });
     </script>

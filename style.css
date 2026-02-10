@@ -479,9 +479,10 @@ header>nav>a:hover{
     font-weight: 400;
     letter-spacing: 1px;
     position: relative;
-    text-transform: uppercase
+    text-transform: uppercase;
+    cursor: pointer;
 }
-.menu-options>ul>li:nth-child(1){
+.menu-options>ul>li.active{
     color: #FF305B ;
 }
 .product{
@@ -490,6 +491,9 @@ header>nav>a:hover{
     float: left;
     width: calc(100%/3);
     padding: 10px 10px;
+}
+.product.hide{
+    display: none;
 }
 .product>.inner-product{
     position: relative;
