@@ -213,28 +213,28 @@
             <div class="stat">
                 <div class="inner-stat">
                     <i class="fa-solid fa-people-group"></i>
-                    <h3>1</h3>
+                    <h3 class="counter" data-target="5">1</h3>
                     <h5>Team Members</h5>
                 </div>
             </div>
             <div class="stat">
                 <div class="inner-stat">
                     <i class="fa-solid fa-bars-progress"></i>
-                    <h3>5</h3>
+                    <h3 class="counter" data-target="19">1</h3>
                     <h5>Projects Completed</h5>
                 </div>
             </div>
             <div class="stat">
                 <div class="inner-stat">
                     <i class="fa-solid fa-cloud-arrow-down"></i>
-                    <h3>55</h3>
+                    <h3 class="counter" data-target="67">1</h3>
                     <h5>Files Downloaded</h5>
                 </div>
             </div>
             <div class="stat">
                 <div class="inner-stat">
                     <i class="fa-solid fa-mug-saucer"></i>
-                    <h3>155K</h3>
+                    <h3 class="counter" id="h4-excep" data-target="155">1</h3>
                     <h5>Lines Of Code</h5>
 
                 </div>
@@ -360,6 +360,60 @@
             <p>Copy Right 2018 © By <a href="#">Theme-fair</a> All Rights Reserved</p>
         </div>
     </footer>
+
+
+    <script>
+        window.addEventListener("DOMContentLoaded",()=>{
+            const statsSection = document.querySelector("#stats");
+            const counters = Array.from(document.querySelectorAll(".counter"));
+            
+            const animateContent =(el, duration=1500) =>{
+                const targetValue = parseInt(el.dataset.target);
+                const start =0;
+                const startTime = performance.now();
+                const step = (currentTime) =>{
+                    const progress = Math.min((currentTime - startTime) / duration, 1);
+                    el.textContent = Math.floor(progress * (targetValue - start) + start);
+                    if(progress < 1){
+                        requestAnimationFrame(step);
+                    }else{  
+                        if(el.id === "h4-excep"){
+                            el.textContent = targetValue + "k";
+                        } else {
+                            el.textContent = targetValue;
+                        }
+                    }
+                }
+                requestAnimationFrame(step);
+            }
+
+
+            const StartAllCouters = () =>{
+                counters.forEach((counter) => {
+                    if (!counter.dataset.animated) {
+                        counter.dataset.animated = "true";
+                        animateContent(counter);
+                    }
+                });
+            }
+
+            if("IntersectionObserver" in window){
+                const observer = new IntersectionObserver((entries, obs) => {
+                    if (entries.some((entry) => entry.isIntersecting)) {
+                        StartAllCouters();
+                        obs.disconnect();
+                    }
+                }, { threshold: 0.2 });   
+                
+                observer.observe(statsSection);
+      
+            }
+            else{
+                StartAllCouters();
+            }            
+        
+        });
+    </script>
 
 
 </body>
